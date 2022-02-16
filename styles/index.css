@@ -1,0 +1,43 @@
+body {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  line-height: 1.5;
+  background-color: rgb(233, 225, 225);
+}
+
+.card {
+  color: rgb(247, 239, 231);
+  font-family: sans-serif;
+  background-image: url(../img/postcard.jpg);
+  background-size: cover;
+  padding: 12rem 0 0;
+  border-radius: 1rem;
+  transition: transform 500ms ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card-content {
+  padding: 1em;
+  background: black;
+}
+
+.card-body {
+  color: rgb(128, 111, 190);
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgb(65, 204, 88);
+  padding: 0.6em 1.2em;
+  border-radius: 0.25em;
+}
+
+.btn:hover {
+  background-color: rgb(191, 205, 218);
+}
